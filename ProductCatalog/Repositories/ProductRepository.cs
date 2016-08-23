@@ -82,7 +82,7 @@ namespace ProductCatalog.Repositories
         /// <returns>Verdadero para indicar que se realizó la acción</returns>
         public bool Delete(int id)
         {
-            // TO DO : Code to remove the records from database
+            
 
             Product products = ProductDB.Product.Find(id);
             ProductDB.Product.Remove(products);
